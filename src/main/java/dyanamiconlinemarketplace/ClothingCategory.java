@@ -5,9 +5,9 @@ import javax.swing.*;
 public class ClothingCategory extends Category{
     private String size;
 
-    public ClothingCategory(String categoryName,String size) {
-        super("Clothing");
-        this.size = size;
+    public ClothingCategory(String categoryName, int price, String name,String size) {
+        super("clothing", price, name);
+        this.size =size;
     }
 
     @Override
