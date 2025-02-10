@@ -3,8 +3,8 @@ package dyanamiconlinemarketplace;
 public class BookCategory extends Category{
             private String genre;
 
-    public BookCategory(String categoryName, int price, String name,String genre) {
-        super("Book", price, name);
+    public BookCategory(String categoryName,String genre) {
+        super("Book");
         this.genre = genre;
     }
 
