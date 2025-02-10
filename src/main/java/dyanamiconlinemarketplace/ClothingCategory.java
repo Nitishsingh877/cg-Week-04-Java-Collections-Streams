@@ -5,7 +5,7 @@ import javax.swing.*;
 public class ClothingCategory extends Category{
     private String size;
 
-    public ClothingCategory(String categoryName,String size) {
+    public ClothingCategory(String size) {
         super("clothing");
         this.size =size;
     }

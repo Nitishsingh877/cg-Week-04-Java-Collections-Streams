@@ -3,7 +3,7 @@ package dyanamiconlinemarketplace;
 public class GadgetCategory extends Category{
     private String deviceType;
 
-    public GadgetCategory(String categoryName,String  deviceType) {
+    public GadgetCategory(String  deviceType) {
         super("Gadget");
         this.deviceType = deviceType;
     }

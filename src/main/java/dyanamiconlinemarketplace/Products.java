@@ -9,15 +9,14 @@ public class Products<T extends Category>{
     private T category;
     private List<T> list = new ArrayList<>();
 
-    public Products() {
-        this.list = new ArrayList<>();
-    }
-
     public Products(String name, double price, T category) {
         this.name = name;
         this.price = price;
         this.category = category;
     }
+
+
+
 
     public void displayProductInfo(){
         System.out.println("product name is " + name);
