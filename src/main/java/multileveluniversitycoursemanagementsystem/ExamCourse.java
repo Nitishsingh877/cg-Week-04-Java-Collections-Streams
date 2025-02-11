@@ -1,7 +1,7 @@
 package multileveluniversitycoursemanagementsystem;
 
 public class ExamCourse extends CourseType{
-    public ExamCourse(String method) {
+    public ExamCourse() {
         super("Exam-Based Approach");
     }
     @Override

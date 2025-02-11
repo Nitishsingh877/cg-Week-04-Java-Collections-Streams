@@ -10,6 +10,9 @@ public abstract class CourseType {
     public String getMethod() {
         return method;
     }
+    public String getString(){
+       return getClass().toString();
+    }
 
     public abstract void displayDetails();
 }

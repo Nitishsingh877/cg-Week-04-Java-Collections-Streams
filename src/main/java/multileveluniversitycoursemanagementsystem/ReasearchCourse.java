@@ -1,7 +1,7 @@
 package multileveluniversitycoursemanagementsystem;
 
 public class ReasearchCourse extends CourseType{
-    public ReasearchCourse(String method) {
+    public ReasearchCourse() {
         super("Research Course");
     }
 
