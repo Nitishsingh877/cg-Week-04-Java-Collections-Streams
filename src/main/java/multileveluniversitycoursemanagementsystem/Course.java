@@ -15,6 +15,10 @@ public class Course <T extends CourseType>{
         return type;
     }
 
+    public String getCourseName() {
+        return courseName;
+    }
+
     public void displayCourseDetails(){
         System.out.println("course name is " + courseName);
         System.out.println("duration in month is " + duration);

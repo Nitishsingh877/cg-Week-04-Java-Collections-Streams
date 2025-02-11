@@ -25,5 +25,22 @@ class MultiLevelCourseMgmtTest {
                 assertEquals(3, university.getcourse().size());
                 System.out.println("length is equal to three");
             }
-            
+    @Test
+    public void testProductInfoFail(){
+        assertAll("product info",
+                () -> assertEquals("Gate", university.getcourse().get(0).getCourseName()),
+                () -> assertEquals("Jee", university.getcourse().get(1).getCourseName()),
+                () -> assertEquals("PHD" , university.getcourse().get(2).getCourseName())
+        );
+    }
+    @Test
+    public void testProductInfo(){
+        assertAll("product info",
+                () -> assertEquals("GATE", university.getcourse().get(0).getCourseName()),
+                () -> assertEquals("JEE", university.getcourse().get(1).getCourseName()),
+                () -> assertEquals("PHD" , university.getcourse().get(2).getCourseName())
+        );
+        System.out.println("test case passed");
+    }
+
 }
