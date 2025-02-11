@@ -15,6 +15,7 @@ public class VegetarianMeal implements MealPlan{
 
     @Override
     public void getMealDetails() {
+        System.out.println("plan for Vegetrain meal");
         System.out.println("meal is" + getMealName());
         System.out.println("duration in months is " + duration);
     }

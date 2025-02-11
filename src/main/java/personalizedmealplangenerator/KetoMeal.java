@@ -16,6 +16,7 @@ public class KetoMeal implements MealPlan{
 
     @Override
     public void getMealDetails() {
+        System.out.println("plan for KETO Meal");
         System.out.println("meal name is " + getMealName());
         System.out.println("weights for carbs is " + carbsWeight);
     }
