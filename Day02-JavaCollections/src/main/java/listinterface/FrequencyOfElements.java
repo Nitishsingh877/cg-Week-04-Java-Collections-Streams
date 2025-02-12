@@ -1,4 +1,4 @@
-package listinterface.reversealist.findfrequencyofelements;
+package listinterface;
 
 import java.util.ArrayList;
 import java.util.HashMap;

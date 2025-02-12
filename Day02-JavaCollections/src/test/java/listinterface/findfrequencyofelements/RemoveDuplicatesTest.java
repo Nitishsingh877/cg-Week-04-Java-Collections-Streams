@@ -1,4 +1,4 @@
-package listinterface.reversealist.findfrequencyofelements;
+package listinterface.findfrequencyofelements;
 
 import org.junit.jupiter.api.Test;
 

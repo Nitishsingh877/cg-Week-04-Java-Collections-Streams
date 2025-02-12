@@ -1,10 +1,9 @@
-package listinterface.reversealist;
+package listinterface;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 
-    class Node {
+class Node {
         int data;
         Node next;
 

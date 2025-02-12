@@ -1,4 +1,4 @@
-package listinterface.reversealist;
+package listinterface;
 
 import org.junit.jupiter.api.Test;
 
