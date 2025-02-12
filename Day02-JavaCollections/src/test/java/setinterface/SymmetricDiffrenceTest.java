@@ -18,7 +18,7 @@ class SymmetricDiffrenceTest {
         integerSet2.addAll(Arrays.asList(new Integer[] {3,4,5}));
 
         Set<Integer> expexted = new HashSet<>(Arrays.asList(new Integer[] {1,2,4,5}));
-        Set<Integer> DiffrenceSymmetric = SymmetricDiffrence.SymmDiffrence(integerSet1,integerSet2);
+        Set<Integer> DiffrenceSymmetric = CheckIfTwoSetsAreEqual.SymmetricDiffrence.SymmDiffrence(integerSet1,integerSet2);
 
         assertEquals(expexted,DiffrenceSymmetric,"not passed");
         System.out.println("test passed");
