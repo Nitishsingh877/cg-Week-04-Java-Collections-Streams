@@ -7,8 +7,8 @@ import java.io.IOException;
 
 public class FileHandling {
     public static void main(String[] args) {
-        String sourceFilePath = "C:\\Users\\NITISH SINGH\\OneDrive\\Desktop\\Cg-training\\notes\\javaStreams.txt";
-        String destinationPath = "C:\\Users\\NITISH SINGH\\OneDrive\\Desktop\\Cg-training\\notes\\writeinJs.txt";;
+        String sourceFilePath = "C:\\Users\\NITISH SINGH\\OneDrive\\Desktop\\Cg-training\\Week04\\Day03-JavaStreams\\src\\main\\resources\\read.txt";
+        String destinationPath = "C:\\Users\\NITISH SINGH\\OneDrive\\Desktop\\Cg-training\\Week04\\Day03-JavaStreams\\src\\main\\resources\\write.txt";
 
         File file = new File(sourceFilePath);
 
