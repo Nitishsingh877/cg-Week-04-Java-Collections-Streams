@@ -1,7 +1,0 @@
-*.class
-*.DS_Store
-**/*.iml
-*.idea/
-*.iml
-out/-
-pom.xml
