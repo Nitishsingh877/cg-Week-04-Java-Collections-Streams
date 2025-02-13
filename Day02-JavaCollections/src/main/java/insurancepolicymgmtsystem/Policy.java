@@ -1,5 +1,7 @@
 package insurancepolicymgmtsystem;
 
+import java.time.LocalDate;
+
 public class Policy {
     private String policyNumber;
     private String policyHolder;
@@ -15,7 +17,7 @@ public class Policy {
         return policyNumber;
     }
 
-    public String getExpiryDate() {
+    public LocalDate getExpiryDate() {
         return expiryDate;
     }
 
