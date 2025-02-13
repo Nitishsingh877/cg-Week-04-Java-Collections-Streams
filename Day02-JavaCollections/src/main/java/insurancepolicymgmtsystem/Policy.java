@@ -5,9 +5,9 @@ import java.time.LocalDate;
 public class Policy {
     private String policyNumber;
     private String policyHolder;
-    private String expiryDate;
+    private LocalDate expiryDate;
 
-    public Policy(String policyNumber, String policyHolder, String expiryDate) {
+    public Policy(String policyNumber, String policyHolder, LocalDate expiryDate) {
         this.policyNumber = policyNumber;
         this.policyHolder = policyHolder;
         this.expiryDate = expiryDate;

@@ -16,9 +16,18 @@ public class PolicyManager {
         sortedPolicy.computeIfAbsent(policy.getExpiryDate(), k -> new ArrayList<>()).add(policy);
     }
 
-    private Policy getPolicyNumber(String policyNumber){
+    public Policy getPolicyNumber(String policyNumber){
         return policyMap.get(policyNumber);
     }
+
+   public List<Policy> getPolicyByHolder(String holderName){
+        List<Policy> policies = new ArrayList<>();
+        for(Policy policy : policyMap.values()){
+            if(policy.getPolicyHolder().equalsIgnoreCase(holderName)){
+                policies.add(policy);
+            }
+        }return policies;
+   }
 
     public List<Policy> getPoliciesExpiringSoon(int days){
         List<Policy> expiringPolicies = new ArrayList<>();
