@@ -45,3 +45,4 @@ build/
 out/-
 
 pom.xml
+.gitattributes
