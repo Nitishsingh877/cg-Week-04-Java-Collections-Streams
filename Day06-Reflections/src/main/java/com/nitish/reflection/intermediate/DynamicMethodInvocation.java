@@ -38,7 +38,5 @@ public class DynamicMethodInvocation {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-
-
     }
 }
