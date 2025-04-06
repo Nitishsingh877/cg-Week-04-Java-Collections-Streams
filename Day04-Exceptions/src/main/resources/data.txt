@@ -1,0 +1,10 @@
+vim tools:
+
+install vim and paste in env variables.
+easy to use 
+.filename - it will create file in ls.
+q- saving file.
+i- inserting file.
+esc- for escaping
+:w -save
+:wq- save and exit.
